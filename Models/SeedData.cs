@@ -31,14 +31,25 @@ namespace Final_Project.Models
                         DragonEC = "",
                         DragonAffinity = "",
                         DragonBounty =  ,
-                        CountryName = "",
-                        AllianceName = ""
+Lair location (FK)      CountryName = "",
+Alligned with (FK)      AllianceName = "",
+                        DragonBounty = 
                     },
 
                     new Country{
-                        
+                        CountryName = "",
+                        CountryNeighbor = "",
+                        Export = "",
+                        Import = "",
+        (FK)            AllianceName = ""
+                    },
 
-                    }
+                    new Allegiance {
+                        AllianceName = "",
+                        AllyStatus = "",
+                        WarStatus = "",
+Founding Country (FK)   CountryName = "",
+                    },
 
 
 
@@ -55,44 +66,13 @@ namespace Final_Project.Models
                         DragonAffinity = "",
                         DragonBounty =  ,
                         CountryName = "",
-                        AllianceName = ""
+                        AllianceName = "",
+                        DragonBounty = 
                     },
-                    new Dragon {
-                        DragonName = "",
-                        DragonRace = "",
-                        DragonEC = "",
-                        DragonAffinity = "",
-                        DragonBounty =  ,
-                        CountryName = "",
-                        AllianceName = ""
-                    },
-                    new Dragon {
-                        DragonName = "",
-                        DragonRace = "",
-                        DragonEC = "",
-                        DragonAffinity = "",
-                        DragonBounty =  ,
-                        CountryName = "",
-                        AllianceName = ""
-                    },
-                    new Dragon {
-                        DragonName = "",
-                        DragonRace = "",
-                        DragonEC = "",
-                        DragonAffinity = "",
-                        DragonBounty =  ,
-                        CountryName = "",
-                        AllianceName = ""
-                    },
-                    new Dragon {
-                        DragonName = "",
-                        DragonRace = "",
-                        DragonEC = "",
-                        DragonAffinity = "",
-                        DragonBounty =  ,
-                        CountryName = "",
-                        AllianceName = ""
-                    },
+
+
+
+
 
                 );
 
