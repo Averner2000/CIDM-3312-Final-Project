@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Final_Project.Models
 {
-    public class DbContext : DbContext
+    public class DragonContext : DbContext
     {
-        public DbContext (DbContextOptions<DbContext> options)
+        public DragonContext (DbContextOptions<DragonContext> options)
             : base (options)
             {
             }
