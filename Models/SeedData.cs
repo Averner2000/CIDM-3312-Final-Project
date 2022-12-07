@@ -3,6 +3,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Collections.Generic;
+
+
+
+
+
+
 /*
 namespace Final_Project.Models
 {
@@ -17,12 +23,77 @@ namespace Final_Project.Models
                     return;
                 }
 
+
+/* class attrabute keys
+                    new Dragon {
+                        DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
+
+                    new Country{
+                        
+
+                    }
+
+
+
+
+*/
+
+
+/*
                 context.Dragon.AddRange(
                     new Dragon {
                         DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
+                    new Dragon {
+                        DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
+                    new Dragon {
+                        DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
+                    new Dragon {
+                        DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
+                    new Dragon {
+                        DragonName = "",
+                        DragonRace = "",
+                        DragonEC = "",
+                        DragonAffinity = "",
+                        DragonBounty =  ,
+                        CountryName = "",
+                        AllianceName = ""
+                    },
 
-
-                    }
                 );
 
 
