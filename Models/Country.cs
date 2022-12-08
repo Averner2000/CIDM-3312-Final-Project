@@ -11,14 +11,13 @@ namespace Final_Project.Models
        //For founding country
         public int AllianceId {get;set;}
         public Allegiance? Allegiance {get;set;}
-        public List<Allegiance> Allegiances {get;set;}
+    
 
         //For Lair location
         public int DragonId {get; set;}
         public Dragon? Dragon {get;set;}
-        public List<Dragon> Dragons {get;set;}
 
 
 
-           }
+        }
 }
