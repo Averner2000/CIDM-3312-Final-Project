@@ -16308,8 +16308,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Dragons\\Details.cshtml",
+      "TargetPath": "Pages\\Dragons\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Dragons\\Index.cshtml",
+      "TargetPath": "Pages\\Dragons\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16320,6 +16330,21 @@
     {
       "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Dragons\\Delete.cshtml",
+      "TargetPath": "Pages\\Dragons\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Dragons\\Create.cshtml",
+      "TargetPath": "Pages\\Dragons\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Adam Verner\\Desktop\\CIDM 3312\\Final Project\\Pages\\Dragons\\Edit.cshtml",
+      "TargetPath": "Pages\\Dragons\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

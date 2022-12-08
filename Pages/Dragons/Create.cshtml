@@ -1,0 +1,62 @@
+@page
+@model Final_Project.Pages.Dragons.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Dragon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Dragon.DragonName" class="control-label"></label>
+                <input asp-for="Dragon.DragonName" class="form-control" />
+                <span asp-validation-for="Dragon.DragonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.DragonRace" class="control-label"></label>
+                <input asp-for="Dragon.DragonRace" class="form-control" />
+                <span asp-validation-for="Dragon.DragonRace" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.DragonEC" class="control-label"></label>
+                <input asp-for="Dragon.DragonEC" class="form-control" />
+                <span asp-validation-for="Dragon.DragonEC" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.DragonAffinity" class="control-label"></label>
+                <input asp-for="Dragon.DragonAffinity" class="form-control" />
+                <span asp-validation-for="Dragon.DragonAffinity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.DragonBounty" class="control-label"></label>
+                <input asp-for="Dragon.DragonBounty" class="form-control" />
+                <span asp-validation-for="Dragon.DragonBounty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.CountryId" class="control-label"></label>
+                <select asp-for="Dragon.CountryId" class ="form-control" asp-items="ViewBag.CountryId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Dragon.AllegianceId" class="control-label"></label>
+                <select asp-for="Dragon.AllegianceId" class ="form-control" asp-items="ViewBag.AllegianceId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

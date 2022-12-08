@@ -1,0 +1,72 @@
+@page
+@model Final_Project.Pages.Dragons.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].DragonName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].DragonRace)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].DragonEC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].DragonAffinity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].DragonBounty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].Country)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dragon[0].Allegiance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Dragon) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DragonName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DragonRace)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DragonEC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DragonAffinity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DragonBounty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Country.CountryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Allegiance.AllegianceId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.DragonId">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.DragonId">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.DragonId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
