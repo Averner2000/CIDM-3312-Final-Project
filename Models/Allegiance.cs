@@ -12,11 +12,21 @@ namespace Final_Project.Models
         public string WarStatus {get; set;} = string.Empty;
 
         //Founder country
-        public Country? CountryName {get; set;} 
+        public int CountryId {get; set;}
 
-        public List<Country> Countrys {get;set;} = new List<Country>();
+         public Country? Country {get;set;}
 
-        public List<Dragon> Dragons {get;set;} = new List<Dragon>();
+         public List<Country> Countrys {get;set;}
+ 
+
+        public int DragonId {get; set;}
+        public Dragon? Dragon {get;set;}
+        public List<Dragon> Dragons {get;set;}
+
+
+
+        
+
 
     }
 }

@@ -7,10 +7,18 @@ namespace Final_Project.Models
         public string CountryNeighbor {get;set;} = string.Empty;
         public string Export {get;set;} = string.Empty;
         public string Import {get;set;} = string.Empty;
-        public Allegiance? AllianceName {get;set;}
+       
+       
+        public int AllianceId {get;set;}
+        public Allegiance? Allegiance {get;set;}
+        public List<Allegiance> Allegiances {get;set;}
 
-        public List<Dragon> Dragons {get;set;} = new List<Dragon>();
 
-        public List<Allegiance> Allegiances {get;set;} = new List<Allegiance>();
-    }
+        public int DragonId {get; set;}
+        public Dragon? Dragon {get;set;}
+        public List<Dragon> Dragons {get;set;}
+
+
+
+           }
 }

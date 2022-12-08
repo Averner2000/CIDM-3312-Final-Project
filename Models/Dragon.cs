@@ -13,9 +13,17 @@ namespace Final_Project.Models
 
 
 //      lair location 
-        public Country? CountryName {get; set;} 
+
+        public int CountryId {get; set;}
+
+         public Country? Country {get;set;}
+
+         public List<Country> Countrys {get;set;}
 //      Dragon's allegiance
-        public Allegiance? AllianceName {get;set;}
+
+        public int AllianceId {get;set;}
+        public Allegiance? Allegiance {get;set;}
+        public List<Allegiance> Allegiances {get;set;}
 
         
 
