@@ -19,8 +19,8 @@ namespace Final_Project.Models
          public Country? Country {get;set;}
 
          public List<Country> Countrys {get;set;}
-//      Dragon's allegiance
 
+//      Dragon's allegiance
         public int AllianceId {get;set;}
         public Allegiance? Allegiance {get;set;}
         public List<Allegiance> Allegiances {get;set;}

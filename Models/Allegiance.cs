@@ -18,7 +18,7 @@ namespace Final_Project.Models
 
          public List<Country> Countrys {get;set;}
  
-
+        //Found dragon allegiance
         public int DragonId {get; set;}
         public Dragon? Dragon {get;set;}
         public List<Dragon> Dragons {get;set;}
