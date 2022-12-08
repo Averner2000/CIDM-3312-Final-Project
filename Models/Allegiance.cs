@@ -2,7 +2,7 @@ namespace Final_Project.Models
 {
     public class Allegiance
     {
-        public int AllianceId {get;set;}
+        public int AllegianceId {get;set;}
 
         public string AllianceName {get;set;} = string.Empty;
 
@@ -12,13 +12,15 @@ namespace Final_Project.Models
         public string WarStatus {get; set;} = string.Empty;
 
         //Founder country
+        
+        /* Navagation removed from project due to complexity 
         public int CountryId {get; set;}
-
-         public Country? Country {get;set;}
+        public Country? Country {get;set;}
+        */
 
  
         //Found dragon allegiance
-        public List<Dragon> Dragons {get;set;}
+        public List<Dragon>? Dragons {get;set;}
 
 
 

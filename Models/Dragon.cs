@@ -20,7 +20,7 @@ namespace Final_Project.Models
 
 
 //      Dragon's allegiance
-        public int AllianceId {get;set;}
+        public int AllegianceId {get;set;}
         public Allegiance? Allegiance {get;set;}
 
 

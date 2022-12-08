@@ -47,8 +47,7 @@ Alligned with (FK)      AllianceName = "",
                     new Allegiance {
                         AllianceName = "",
                         AllyStatus = "",
-                        WarStatus = "",
-Founding Country (FK)   CountryName = "",
+                        WarStatus = ""
                     },
 
 
