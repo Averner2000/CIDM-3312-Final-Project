@@ -56,10 +56,10 @@
                 @Html.DisplayFor(modelItem => item.DragonBounty)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Country.CountryId)
+                @Html.DisplayFor(modelItem => item.Country.CountryName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Allegiance.AllegianceId)
+                @Html.DisplayFor(modelItem => item.Allegiance.AllianceName)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.DragonId">Edit</a> |
